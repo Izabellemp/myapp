@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffbfe0;
+}
+
+.header {
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_image {
+    width: 225px;
+    height: 225px;
+}
+
+.header_title {
+    color: #192965;
+}
+
+.cardapio {
+    background-color: #fd7792;
+    max-width: 768px;
+    padding: 25px 20px 25px 15px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 4px 4px 7px 2px #c9485b;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.cardapio_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardapio_title {
+    text-align: center;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cardapio_title, .cardapio_listItem {
+    color: #192965;
+
+}
+
+.left {
+    margin-left: -15px;
+}
